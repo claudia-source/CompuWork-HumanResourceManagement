@@ -26,7 +26,7 @@ CompuWork es un sistema de gestión de recursos humanos que permite a las empres
    git clone https://github.com/claudia-source/CompuWorkHRM.git
 Configura la base de datos en src/main/resources/application.properties:
 properties
-Copiar código
+
 spring.datasource.url=jdbc:postgresql://localhost:5432/compuwork_db
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
@@ -36,7 +36,7 @@ Uso
 Para ejecutar la aplicación, utiliza Maven:
 
 bash
-Copiar código
+
 mvn spring-boot:run
 Contribuciones
 Las contribuciones son bienvenidas. Si deseas contribuir, por favor abre un issue o envía un pull request.
@@ -45,7 +45,6 @@ Licencia
 Este proyecto está licenciado bajo la Nombre de la Licencia.
 
 markdown
-Copiar código
 
 ### Revisión del Proyecto
 
